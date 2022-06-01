@@ -1,0 +1,30 @@
+body{
+    background-color: #fff;
+}
+
+.main-content{
+    background-color: #f8f9fa;
+    padding: 10px;
+}
+
+.bg-yellow {
+    background-color: #E2C43F ;
+}
+
+.dropdown-submenu {
+  position: relative;
+}
+
+.dropdown-submenu a::after {
+  transform: rotate(-90deg);
+  position: absolute;
+  right: 6px;
+  top: .8em;
+}
+
+.dropdown-submenu .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-left: .1rem;
+  margin-right: .1rem;
+}
